@@ -5,7 +5,7 @@ while(true) {
         break;
     } else if (command ==='list'){
         console.log('=======================');
-        for (let i = 1; i <=todos.length; i++ ){
+        for (let i = 1; i <=todos.length; i++){
             console.log('${i}.${todos[i-1]}');
         }
         console.log('=======================')
